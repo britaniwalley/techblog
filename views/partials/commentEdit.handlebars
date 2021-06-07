@@ -1,0 +1,18 @@
+<section class="card">
+
+    <div class="card-body">
+
+        <div> id: <a id="commentid">{{id}}</a></div>
+
+        <a class="btn" id="updateThisCommentbtn" onclick="window.location" aria-current="page"
+            href='/viewNote/{{post_id}}'>update</a>
+        <a class="btn" id="deleteCommentbtn" onclick="window.location" aria-current="page"
+            href='/viewNote/{{post_id}}'>delete</a>
+
+        <div class="form">
+            <textarea class="form-control" id="commentNew">{{comment}}</textarea>
+        </div>
+
+    </div>
+    </a>
+</section>
